@@ -20,4 +20,5 @@ LCM=(a*b/gcd);
 
 print("the gcd is:$gcd");
 print("LCM is:$LCM");
+print("shifla");
 }
