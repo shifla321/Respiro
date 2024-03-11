@@ -7,19 +7,24 @@ void gcd(){
   int b=int.parse(stdin.readLineSync()!);
 
   for(i=1;i<=a&&i<=b;i++)
-  {
+   {
+    
+     
   if(a%i==0&&b%i==0){
      gcd=i;
+    
 
+  }}
+   print("$gcd");}
+   
+void gcdfix(){
+  int gcd=1;int i;
+  int a=16;int b=42;
+  for(i=1;i<=a&&i<=b;i++){
+    if(a%i==0&&b%i==0){
+      gcd=i;
+      
+    }
   }
-
-}
-double LCM;
-LCM=(a*b/gcd);
-
-
-print("the gcd is:$gcd");
-print("LCM is:$LCM");
-print("shifla");
-int abc;
+  print("$gcd");
 }
