@@ -2,7 +2,7 @@ class Vehicle{
   String? make;
   dynamic model;
   int? year;
-  displayinfo(){
+  void displayinfo(){
     print(make);
     print(model);
     print(year);

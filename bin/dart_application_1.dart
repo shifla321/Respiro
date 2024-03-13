@@ -7,6 +7,7 @@ import 'classhouse.dart';
 import 'classinheritence.dart';
 import 'classlap.dart';
 import 'classperson.dart';
+import 'classstudent.dart';
 import 'classvehicle.dart';
 import 'demical.dart';
 import 'email.dart';
@@ -70,33 +71,33 @@ print(obj.calculateperimeter());
 // obj.move();
 // obj.speed();
 // print(obj.color);
-Laptop objj1=Laptop();
-Laptop objj2=Laptop();
-Laptop objj3=Laptop();
-objj1.id=001;
-objj1.name="hp";
-objj1.ram="6 bg";
-objj2.id=002;
-objj2.name="accus";
-objj2.ram="8 bg";
-objj3.id=003;
-objj3.name="dell";
-objj3.ram="16 bg";
-print(objj1.id);
-print(objj1.name);
-print(objj1.ram);
-print(objj2.id);
-print(objj2.name);
-print(objj2.ram);
-print(objj3.name);
+// Laptop objj1=Laptop();
+// Laptop objj2=Laptop();
+// Laptop objj3=Laptop();
+// objj1.id=001;
+// objj1.name="hp";
+// objj1.ram="6 bg";
+// objj2.id=002;
+// objj2.name="accus";
+// objj2.ram="8 bg";
+// objj3.id=003;
+// objj3.name="dell";
+// objj3.ram="16 bg";
+// print(objj1.id);
+// print(objj1.name);
+// print(objj1.ram);
+// print(objj2.id);
+// print(objj2.name);
+// print(objj2.ram);
+// print(objj3.name);
 
-print(objj3.id);
-
-
+// print(objj3.id);
 
 
 
-print(objj3.ram);
+
+
+// print(objj3.ram);
 // print(obj.id);
 // print(obj.name);
 // print(obj.ram);
@@ -113,5 +114,12 @@ print(objj3.ram);
 // t1.make="benz";
 // t1.model="a213";
 // t1.year=2021;
+// t1.displayinfo();
 // print("truck bedlength is =${t1.bedlength} ");
+Student s1=Student();
+s1.setvalues("shifla",22, 7);
+s1.getdetails();
+s1.setvalues("ramzana", 22, 32);
+
+s1.getdetails();
 }
