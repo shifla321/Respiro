@@ -3,6 +3,8 @@ import 'dart:io';
 import 'package:dart_application_1/dart_application_1.dart' as dart_application_1;
 
 import 'armstrong.dart';
+import 'classabstract.dart';
+import 'classbanl.dart';
 import 'classhouse.dart';
 import 'classinheritence.dart';
 import 'classlap.dart';
@@ -116,10 +118,18 @@ print(obj.calculateperimeter());
 // t1.year=2021;
 // t1.displayinfo();
 // print("truck bedlength is =${t1.bedlength} ");
-Student s1=Student();
-s1.setvalues("shifla",22, 7);
-s1.getdetails();
-s1.setvalues("ramzana", 22, 32);
+// Student s1=Student();
+// s1.setvalues("shifla",22, 7);
+// s1.getdetails();
+// s1.setvalues("ramzana", 22, 32);
 
-s1.getdetails();
+// s1.getdetails();
+// BankAccount B=BankAccount(2352, "shifla");
+// B.deposit();
+// B.withdraw();
+// B.getbalance();
+Rectangle rr =Rectangle();
+rr.abstractcalculatearea();
+Circle ci1=Circle();
+ci1.abstractcalculatearea();
 }
